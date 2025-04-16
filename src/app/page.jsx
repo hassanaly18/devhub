@@ -1,20 +1,13 @@
 "use client"
 
 import JobsCrud from "@/components/JobsCrud";
+import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white flex flex-col items-center justify-between px-4 py-12">
-      <header className="w-full max-w-7xl mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-blue-600">DevHub</h1>
-        <nav className="space-x-6 text-gray-700">
-          <Link href="jobs">Jobs</Link>
-          <Link href="profile">Profile</Link>
-          <Link href="login">Login</Link>
-        </nav>
-      </header>
 
       <section className="text-center mt-10">
         <h2 className="text-4xl text-gray-800 md:text-5xl font-extrabold leading-tight">
