@@ -7,6 +7,7 @@ const Navbar = () => {
         <h1 className="text-2xl font-bold text-blue-600">DevHub</h1>
         <nav className="space-x-6 text-gray-700">
           <Link href="/">Home</Link>
+          <Link href="/jobs">Jobs</Link>
           <Link href="profile">Profile</Link>
           <Link href="/login">Login</Link>
           <Link href="/signup">Signup</Link>
