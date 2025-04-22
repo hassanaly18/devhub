@@ -39,7 +39,8 @@ const Jobs = () => {
                   <span className="bg-blue-100 text-blue-800 px-2 py-1" key={idx}>{skill}</span>
                 ))}
               </div>
-              <p className="text-xs text-gray-500">Posted On: {job.created_at}</p>
+              <p className="text-xs text-gray-500 mb-4">Posted On: {job.created_at}</p>
+              <a href={`/jobs/${job.id}`} className="bg-blue-600 hover:bg-blue-800 mt-6 px-4 py-2 rounded text-sm">Apply Now</a>
             </div>
           ))}
         </div>

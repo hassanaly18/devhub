@@ -22,6 +22,8 @@ const Post = () => {
         setUser(user)
       }
     }
+
+    getUser();
   },[])
 
   const handleChange = (e) => {
@@ -44,7 +46,7 @@ const Post = () => {
         skills_required: skills_required
           .split(",")
           .map((skilll) => skilll.trim()),
-        posted_by: "3c60e69c-4084-4f8f-bf72-3e525012a8f4", //"3c60e69c-4084-4f8f-bf72-3e525012a8f4"
+        posted_by: user.id, //"3c60e69c-4084-4f8f-bf72-3e525012a8f4"
       },
     ]);
 
