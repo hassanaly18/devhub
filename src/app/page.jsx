@@ -7,10 +7,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white flex flex-col items-center justify-between px-4 py-12">
+    <main className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] flex flex-col items-center justify-between px-4 py-12">
 
       <section className="text-center mt-10">
-        <h2 className="text-4xl text-gray-800 md:text-5xl font-extrabold leading-tight">
+        <h2 className="text-4xl text-gray-200 md:text-5xl font-extrabold leading-tight">
           Find Javascript Jobs <br />
           or Get Discovered
         </h2>

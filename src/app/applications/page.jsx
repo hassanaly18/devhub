@@ -1,6 +1,6 @@
 "use client"
 
-import { supabase } from '@/utils/supabase/supabase'
+import { supabase } from '@/utils/supabase/supabase.js'
 import React, { useEffect, useState } from 'react'
 
 const Applications = () => {
